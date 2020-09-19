@@ -1,6 +1,6 @@
 ---
-title: "Blog Post One"
-thumbnail: "/uploads/cake-1.jpg"
+title: Choco Cake
+thumbnail: /uploads/cake-1.png
 ---
 
 # This is blog post one
