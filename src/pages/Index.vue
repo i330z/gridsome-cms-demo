@@ -11,17 +11,21 @@
       <h2 style="text-align:center">Featured Cake</h2>
       <b-row>
         <b-col  class="my-4" md="3" v-for="post in $page.posts.edges" :key="post.id">
-          <div>
-            <div class=" cake-card p-2">
-              <div style="height:120px"></div>
-            <!-- <img :src="post.node.thumbnail" alt="" class="img-fluid"> -->
-            <div class="cake-img">
-              <img src="/uploads/cake-1.png" alt="" class="img-fluid">
+          
+            <div>
+              <div class=" cake-card p-2">
+                <div style="height:120px"></div>
+              <div class="cake-img">
+              <img :src="post.node.thumbnail" alt="" class="img-fluid">
+                <!-- <img src="/uploads/cake-1.png" alt="" class="img-fluid"> -->
+              </div>
+              <g-link :to="post.node.path">
+              <h3>{{ post.node.title }}</h3>
+              </g-link>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident, praesentium!</p>
+              </div>
             </div>
-            <h3>{{ post.node.title }}</h3>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident, praesentium!</p>
-            </div>
-          </div>
+          
         </b-col>
       </b-row>
     </section>
