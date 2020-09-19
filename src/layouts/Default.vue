@@ -1,6 +1,6 @@
 <template>
   <div class="layout">
-    <header class="header">
+    <!-- <header class="header">
       <strong>
         <g-link to="/">{{ $static.metadata.siteName }}</g-link>
       </strong>
@@ -8,10 +8,22 @@
         <g-link class="nav__link" to="/">Home</g-link>
         <g-link class="nav__link" to="/about/">About</g-link>
       </nav>
-    </header>
+
+    </header> -->
+    
+      <Navbar/>
     <slot/>
   </div>
 </template>
+
+<script>
+import Navbar from '~/components/navigation'
+export default {
+  components:{
+    Navbar
+  }
+}
+</script>
 
 <static-query>
 query {
@@ -20,6 +32,9 @@ query {
   }
 }
 </static-query>
+
+
+
 
 <style>
 body {
@@ -30,21 +45,21 @@ body {
 }
 
 .layout {
-  max-width: 760px;
+  max-width: 98%;
   margin: 0 auto;
   padding-left: 20px;
   padding-right: 20px;
 }
 
-.header {
+/* .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 20px;
   height: 80px;
-}
+} */
 
-.nav__link {
+/* .nav__link {
   margin-left: 20px;
-}
+} */
 </style>
