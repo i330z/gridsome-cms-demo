@@ -1,6 +1,7 @@
 ---
 title: Choco Cake
 thumbnail: /uploads/cake-1.png
+category: chocolate
 ---
 
 # This is blog post one
