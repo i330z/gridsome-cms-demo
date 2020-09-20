@@ -22,7 +22,8 @@
               <g-link :to="post.node.path">
               <h3>{{ post.node.title }}</h3>
               </g-link>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident, praesentium!</p>
+              <p>{{post.node.category}}</p>
+              <b-button class="cake-card-button" style="posi">Check Detail</b-button>
               </div>
             </div>
           
@@ -45,6 +46,7 @@ query{
         path
         title
         thumbnail
+        category
       }
     }
   }
@@ -82,5 +84,20 @@ export default {
   top: -20%;
   left: 8%;
   width: 260px;
+}
+
+.cake-card-button{
+  position: absolute;
+  bottom: -20%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  padding: 8px 50px;
+  border: 2px solid #F36461;
+  background: #F8D700;
+  color: #F36461;
+}
+.cake-card-button:hover{
+  border: 2px solid #F8D700;
+  background: #F36461;
 }
 </style>
