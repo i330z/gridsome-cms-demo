@@ -84,7 +84,10 @@
 }
 
 .card-content span{
-    color: rgb(109, 109, 109);
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
 }
 .opa-button{
     position: absolute;

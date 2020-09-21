@@ -14,6 +14,6 @@ export default function (Vue, { router, head, isClient }) {
   Vue.use(BootstrapVue)
   head.link.push({
     rel: 'stylesheet',
-    href: 'https://fonts.googleapis.com/css2?family=Lobster+Two:wght@400;700&display=swap'
+    href: 'https://fonts.googleapis.com/css2?family=Lobster+Two:wght@400;700&family=Poppins:wght@300&display=swap" rel="stylesheet'
   })
 }

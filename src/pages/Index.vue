@@ -40,6 +40,7 @@
       </b-row>
     </section>
     <CakeSection />
+    <Faq />
     <div></div>
   </Layout>
 </template>
@@ -60,12 +61,14 @@ query{
 </page-query>
 
 <script>
-import Carousel from "../components/carousel";
 import CakeSection from "../components/cakeSection"
+import Carousel from "../components/carousel";
+import Faq from "../components/faq";
 export default {
   components: {
     Carousel,
-    CakeSection
+    CakeSection,
+    Faq
   },
   metaInfo: {
     title: "Hello, world!",

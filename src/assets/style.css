@@ -1,9 +1,11 @@
-body{
-    font-family: 'Lobster Two', cursive;
-}
+
 
 h2{
     font-size: 51px;
+    font-family: 'Lobster Two', cursive;
+}
+h3{
+    font-family: 'Lobster Two', cursive;
 }
 
 a{

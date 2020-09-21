@@ -41,15 +41,14 @@ export default {
   top: 50%;
   margin-top: -1.5px;
   border-bottom: 3px solid;
-  border-color: white;
-  
+  border-color: transparent;
 }
 
 .cake-divider img {
   display: block;
   margin: auto;
   padding: 0 20px;
-  background: white;
+  background: transparent;
   width: 240px;
 }
 </style>
