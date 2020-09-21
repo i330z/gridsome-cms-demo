@@ -55,5 +55,13 @@ a{
 }
 
 .tab-cake li a{
-    font-size: 20px;
+    padding: 0 0 15px 0;
+    background: none;
+    border-bottom: 2px solid transparent;
+    border-top: 2px solid transparent;
+    border-left: none;
+    border-right: none;
+    font-size: 18px;
+    display: inline-block;
+    margin: 0 20px;
 }
