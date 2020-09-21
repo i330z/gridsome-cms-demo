@@ -4,7 +4,7 @@
             <b-col md="3">
                 <div class="cake-holder">
                     <div class="image">
-                        <img src="https://cdn.shopify.com/s/files/1/0013/7487/9814/files/img-3_f5666565-c070-4664-8562-b91db787caf3.jpg?v=1534415048" alt="">
+                        <g-image src="https://cdn.shopify.com/s/files/1/0013/7487/9814/files/img-3_f5666565-c070-4664-8562-b91db787caf3.jpg?v=1534415048" alt="" />
                         <button class="card-button opa-button">Buy Now</button>
                     </div>
                     <div class="card-content">
@@ -21,7 +21,7 @@
             <b-col md="3">
                 <div class="cake-holder">
                     <div class="image">
-                        <img src="https://cdn.shopify.com/s/files/1/0013/7487/9814/files/img-3_f5666565-c070-4664-8562-b91db787caf3.jpg?v=1534415048" alt="">
+                        <g-image src="https://cdn.shopify.com/s/files/1/0013/7487/9814/files/img-3_f5666565-c070-4664-8562-b91db787caf3.jpg?v=1534415048" alt="" />
                         <button class="card-button opa-button">Buy Now</button>
                     </div>
                     <div class="card-content">
@@ -38,7 +38,7 @@
             <b-col md="3">
                 <div class="cake-holder">
                     <div class="image">
-                        <img src="https://cdn.shopify.com/s/files/1/0013/7487/9814/files/img-3_f5666565-c070-4664-8562-b91db787caf3.jpg?v=1534415048" alt="">
+                        <g-image src="https://cdn.shopify.com/s/files/1/0013/7487/9814/files/img-3_f5666565-c070-4664-8562-b91db787caf3.jpg?v=1534415048" alt="" />
                         <button class="card-button opa-button">Buy Now</button>
                     </div>
                     <div class="card-content">
@@ -55,7 +55,7 @@
             <b-col md="3">
                 <div class="cake-holder">
                     <div class="image">
-                        <img src="https://cdn.shopify.com/s/files/1/0013/7487/9814/files/img-3_f5666565-c070-4664-8562-b91db787caf3.jpg?v=1534415048" alt="">
+                        <g-image src="https://cdn.shopify.com/s/files/1/0013/7487/9814/files/img-3_f5666565-c070-4664-8562-b91db787caf3.jpg?v=1534415048" alt="" />
                         <button class="card-button opa-button">Buy Now</button>
                     </div>
                     <div class="card-content">
