@@ -1,6 +1,37 @@
 <template>
     <div>
-        <SectionHeader title= "Chocolate Cake" />
+        <SectionHeader title= "Our Collection" />
+        <b-row>
+            <b-col md=12>
+                <div class="center">
+                    <ul class="tab-cake mb-4">
+                    <li>
+                        <a href="#">
+                        <img src="https://cdn.shopify.com/s/files/1/0013/7487/9814/files/icon-4_50x.png?v=1535456716" alt="">
+                       <div>Vannila</div> 
+                    </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                        <img src="https://cdn.shopify.com/s/files/1/0013/7487/9814/files/icon-2_3ae11ff2-a5cd-43e4-90d2-7e13bdf1ce82_50x.png?v=1535456729" alt="">
+                       <div>Strawberry</div> 
+                    </a>
+                    <li>
+                        <a href="#">
+                        <img src="https://cdn.shopify.com/s/files/1/0013/7487/9814/files/icon-3_50x.png?v=1535456740" alt="">
+                       <div>Chocolate</div> 
+                    </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                        <img src="https://cdn.shopify.com/s/files/1/0013/7487/9814/files/icon-1_50x.png?v=1535456749" alt="">
+                       <div>Butter Scotch</div> 
+                    </a>
+                    </li>
+                </ul>
+                </div>
+            </b-col>
+        </b-row>
         <b-row>
             <b-col md="3">
                 <div class="cake-holder">
@@ -20,6 +51,7 @@
                 </div>
             </b-col>
         </b-row>
+        
     </div>
 </template>
 

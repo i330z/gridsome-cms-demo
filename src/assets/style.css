@@ -43,3 +43,12 @@ a{
 .strike-price{
     color: grey;
 }
+
+.tab-cake li{
+    display: inline-block;
+    padding: 3px 18px;
+}
+
+.tab-cake li>img{
+    display: block;
+}
