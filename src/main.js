@@ -3,13 +3,14 @@
 
 import DefaultLayout from '~/layouts/Default.vue'
 import BootstrapVue from 'bootstrap-vue'
-
+import SectionHeader from '../src/components/sectionheader'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 import '../src/assets/style.css'
 export default function (Vue, { router, head, isClient }) {
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout)
+  Vue.component('SectionHeader', SectionHeader)
   Vue.use(BootstrapVue)
   head.link.push({
     rel: 'stylesheet',

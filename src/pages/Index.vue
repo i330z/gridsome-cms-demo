@@ -39,6 +39,7 @@
         </b-col>
       </b-row>
     </section>
+    <CakeSection />
     <div></div>
   </Layout>
 </template>
@@ -60,9 +61,11 @@ query{
 
 <script>
 import Carousel from "../components/carousel";
+import CakeSection from "../components/cakeSection"
 export default {
   components: {
     Carousel,
+    CakeSection
   },
   metaInfo: {
     title: "Hello, world!",
