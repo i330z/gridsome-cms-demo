@@ -22,7 +22,7 @@
             <div class=" cake-card p-2">
               <div style="height:120px"></div>
               <div class="cake-img">
-                <img :src="post.node.thumbnail" alt="" class="img-fluid" />
+                <g-image :src="post.node.thumbnail" alt="" class="img-fluid" />
                 <!-- <img src="/uploads/cake-1.png" alt="" class="img-fluid"> -->
               </div>
               
