@@ -4,11 +4,11 @@
             <b-col md="3">
                 <div class="cake-holder">
                     <div class="image">
-                        <img src="https://cdn.shopify.com/s/files/1/0013/7487/9814/files/img-3_f5666565-c070-4664-8562-b91db787caf3.jpg?v=1534415048" alt="">
+                        <img src="https://cdn.shopify.com/s/files/1/0013/7487/9814/products/product19.jpg?v=1531810850" alt="">
                         <button class="card-button opa-button">Buy Now</button>
                     </div>
                     <div class="card-content">
-                        <h3>Creamy Cup Cake</h3>
+                        <h3>Vanilla Cake</h3>
                         <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</span>
                     </div>
                     <div>
@@ -21,11 +21,11 @@
             <b-col md="3">
                 <div class="cake-holder">
                     <div class="image">
-                        <img src="https://cdn.shopify.com/s/files/1/0013/7487/9814/files/img-3_f5666565-c070-4664-8562-b91db787caf3.jpg?v=1534415048" alt="">
+                        <img src="https://cdn.shopify.com/s/files/1/0013/7487/9814/products/product19.jpg?v=1531810850" alt="">
                         <button class="card-button opa-button">Buy Now</button>
                     </div>
                     <div class="card-content">
-                        <h3>Creamy Cup Cake</h3>
+                        <h3>Vanilla Cake</h3>
                         <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</span>
                     </div>
                     <div>
@@ -38,11 +38,11 @@
             <b-col md="3">
                 <div class="cake-holder">
                     <div class="image">
-                        <img src="https://cdn.shopify.com/s/files/1/0013/7487/9814/files/img-3_f5666565-c070-4664-8562-b91db787caf3.jpg?v=1534415048" alt="">
+                        <img src="https://cdn.shopify.com/s/files/1/0013/7487/9814/products/product19.jpg?v=1531810850" alt="">
                         <button class="card-button opa-button">Buy Now</button>
                     </div>
                     <div class="card-content">
-                        <h3>Creamy Cup Cake</h3>
+                        <h3>Vanilla Cake</h3>
                         <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</span>
                     </div>
                     <div>
@@ -55,11 +55,11 @@
             <b-col md="3">
                 <div class="cake-holder">
                     <div class="image">
-                        <img src="https://cdn.shopify.com/s/files/1/0013/7487/9814/files/img-3_f5666565-c070-4664-8562-b91db787caf3.jpg?v=1534415048" alt="">
+                        <img src="https://cdn.shopify.com/s/files/1/0013/7487/9814/products/product19.jpg?v=1531810850" alt="">
                         <button class="card-button opa-button">Buy Now</button>
                     </div>
                     <div class="card-content">
-                        <h3>Creamy Cup Cake</h3>
+                        <h3>Vanilla Cake</h3>
                         <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</span>
                     </div>
                     <div>
@@ -69,6 +69,7 @@
                     <!-- <button class="card-button">Buy Now</button> -->
                 </div>
             </b-col>
+            
         </b-row>
         
     </div>
