@@ -5,42 +5,108 @@
 
     <h1>Hello, world!</h1> -->
 
-    <Carousel />
+    <HeroCarousel />
     <section class="py-5">
       <div class="cake-divider">
         <img src="/uploads/divider.png"  alt="" />
       </div>
-      <h2 style="text-align:center">Featured Cake</h2>
+      <h2 style="text-align:center">Best Selling Cake</h2>
       <b-row>
         <b-col
           class="my-4"
-          md="3"
-          v-for="post in $page.posts.edges"
-          :key="post.id"
+          md="12"
         >
+          <ClientOnly>
+      <carousel :perPageCustom="[[400, 1],[768, 3], [1024, 4]]">
+        <slide>
           <div>
             <div class=" cake-card p-2">
-              <div style="height:120px"></div>
+              <!-- <div style="height:120px"></div> -->
               <div class="cake-img">
-                <g-image :src="post.node.thumbnail" alt="" class="img-fluid" />
+                <g-image src="https://cdn.shopify.com/s/files/1/0013/7487/9814/products/p6_cfa55e6f-3b8c-4c7a-8e6e-092809ed8d4b_grande.jpg?v=1535529185" alt="" class="img-fluid" />
                 <!-- <img src="/uploads/cake-1.png" alt="" class="img-fluid"> -->
               </div>
               
-                <h3>{{ post.node.title }}</h3>
+                <h3>Chocolate Cake</h3>
              
-              <p>{{ post.node.category }}</p>
-              <g-link :to="post.node.path">
-              <b-button class="cake-card-button" style="posi"
+              <p>Chocolate</p>
+              <!-- <g-link :to="post.node.path"> -->
+              <b-button class="card-button" style="color:black;font-family:'Lobster Two', cursive;"
                 >Check Detail</b-button
               >
-               </g-link>
+               <!-- </g-link> -->
             </div>
           </div>
+        </slide>
+        <slide>
+          <div>
+            <div class=" cake-card p-2">
+              <!-- <div style="height:120px"></div> -->
+              <div class="cake-img">
+                <g-image src="https://cdn.shopify.com/s/files/1/0013/7487/9814/products/p6_cfa55e6f-3b8c-4c7a-8e6e-092809ed8d4b_grande.jpg?v=1535529185" alt="" class="img-fluid" />
+                <!-- <img src="/uploads/cake-1.png" alt="" class="img-fluid"> -->
+              </div>
+              
+                <h3>Chocolate Cake</h3>
+             
+              <p>Chocolate</p>
+              <!-- <g-link :to="post.node.path"> -->
+              <b-button class="card-button" style="color:black;font-family:'Lobster Two', cursive;"
+                >Check Detail</b-button
+              >
+               <!-- </g-link> -->
+            </div>
+          </div>
+        </slide>
+        <slide>
+          <div>
+            <div class=" cake-card p-2">
+              <!-- <div style="height:120px"></div> -->
+              <div class="cake-img">
+                <g-image src="https://cdn.shopify.com/s/files/1/0013/7487/9814/products/p6_cfa55e6f-3b8c-4c7a-8e6e-092809ed8d4b_grande.jpg?v=1535529185" alt="" class="img-fluid" />
+                <!-- <img src="/uploads/cake-1.png" alt="" class="img-fluid"> -->
+              </div>
+              
+                <h3>Chocolate Cake</h3>
+             
+              <p>Chocolate</p>
+              <!-- <g-link :to="post.node.path"> -->
+              <b-button class="card-button" style="color:black;font-family:'Lobster Two', cursive;"
+                >Check Detail</b-button
+              >
+               <!-- </g-link> -->
+            </div>
+          </div>
+        </slide>
+        <slide>
+          <div>
+            <div class=" cake-card p-2">
+              <!-- <div style="height:120px"></div> -->
+              <div class="cake-img">
+                <g-image src="https://cdn.shopify.com/s/files/1/0013/7487/9814/products/p6_cfa55e6f-3b8c-4c7a-8e6e-092809ed8d4b_grande.jpg?v=1535529185" alt="" class="img-fluid" />
+                <!-- <img src="/uploads/cake-1.png" alt="" class="img-fluid"> -->
+              </div>
+              
+                <h3>Chocolate Cake</h3>
+             
+              <p>Chocolate</p>
+              <!-- <g-link :to="post.node.path"> -->
+              <b-button class="card-button" style="color:black;font-family:'Lobster Two', cursive;"
+                >Check Detail</b-button
+              >
+               <!-- </g-link> -->
+            </div>
+          </div>
+        </slide>
+      </carousel>
+    </ClientOnly>
         </b-col>
       </b-row>
     </section>
     <CakeSection />
     <Faq />
+
+    
     <div></div>
   </Layout>
 </template>
@@ -61,18 +127,28 @@ query{
 </page-query>
 
 <script>
+import {Carousel,Slide} from 'vue-carousel'
 import CakeSection from "../components/cakeSection"
-import Carousel from "../components/carousel";
+import HeroCarousel from "../components/carousel";
 import Faq from "../components/faq";
 export default {
   components: {
-    Carousel,
+    HeroCarousel,
     CakeSection,
-    Faq
+    Faq,
+    Carousel: () =>
+        import ('vue-carousel')
+        .then(m => m.Carousel)
+        .catch(),
+      Slide: () =>
+        import ('vue-carousel')
+        .then(m => m.Slide)
+        .catch()
   },
   metaInfo: {
     title: "Hello, world!",
   },
+  
 };
 </script>
 
@@ -84,18 +160,18 @@ export default {
 .cake-card {
   position: relative;
   text-align: center;
-  background: rgba(255, 192, 203, 0.534);
+  background: #f8f8f8;
   border-radius: 12px;
-  margin-top: 60px;
-  box-shadow: 0 0 12px rgba(41, 41, 41, 0.15);
+  margin: 20px;
+  /* box-shadow: 0 0 12px rgba(41, 41, 41, 0.15);  */
 }
 
-.cake-img {
+/* .cake-img {
   position: absolute;
   top: -20%;
   left: 8%;
   width: 260px;
-}
+} */
 
 .cake-card-button {
   position: absolute;
@@ -144,6 +220,6 @@ export default {
   margin: auto;
   padding: 0 20px;
   background: white;
-  width: 240px;
+  /* width: 240px; */
 }
 </style>
