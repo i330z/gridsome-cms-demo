@@ -32,8 +32,8 @@
              
               <p>Chocolate</p>
               <!-- <g-link :to="post.node.path"> -->
-              <b-button class="card-button" style="color:black;font-family:'Lobster Two', cursive;"
-                >Check Detail</b-button
+              <b-button class="card-button" 
+                >Buy Now</b-button
               >
                <!-- </g-link> -->
             </div>
@@ -52,8 +52,8 @@
              
               <p>Chocolate</p>
               <!-- <g-link :to="post.node.path"> -->
-              <b-button class="card-button" style="color:black;font-family:'Lobster Two', cursive;"
-                >Check Detail</b-button
+              <b-button class="card-button" 
+                >Buy Now</b-button
               >
                <!-- </g-link> -->
             </div>
@@ -72,8 +72,8 @@
              
               <p>Chocolate</p>
               <!-- <g-link :to="post.node.path"> -->
-              <b-button class="card-button" style="color:black;font-family:'Lobster Two', cursive;"
-                >Check Detail</b-button
+              <b-button class="card-button" 
+                >Buy Now</b-button
               >
                <!-- </g-link> -->
             </div>
@@ -92,8 +92,8 @@
              
               <p>Chocolate</p>
               <!-- <g-link :to="post.node.path"> -->
-              <b-button class="card-button" style="color:black;font-family:'Lobster Two', cursive;"
-                >Check Detail</b-button
+              <b-button class="card-button" 
+                >Buy Now</b-button
               >
                <!-- </g-link> -->
             </div>
@@ -104,6 +104,7 @@
         </b-col>
       </b-row>
     </section>
+    <Intro />
     <CakeSection />
     <Faq />
 
@@ -132,11 +133,13 @@ query{
 import CakeSection from "../components/cakeSection"
 import HeroCarousel from "../components/carousel";
 import Faq from "../components/faq";
+import Intro from "../components/intro";
 export default {
   components: {
     HeroCarousel,
     CakeSection,
     Faq,
+    Intro,
     Carousel: () =>
         import ('vue-carousel')
         .then(m => m.Carousel)
@@ -178,7 +181,7 @@ export default {
   width: 260px;
 } */
 
-.cake-card-button {
+/* .cake-card-button {
   position: absolute;
   bottom: -20%;
   left: 50%;
@@ -192,6 +195,16 @@ export default {
 .cake-card-button:hover {
   border: 2px solid #f8d700;
   background: #f36461;
+  
+} */
+
+.card-button{
+  color:black;
+  font-family: 'Poppins', sans-serif;
+}
+
+.card-button:hover{
+  color: white;
 }
 .cake-divider {
   -webkit-appearance: none;
