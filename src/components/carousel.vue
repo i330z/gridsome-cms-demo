@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div >
     <b-carousel
       id="carousel-fade"
       style="text-shadow: 0px 0px 2px #000"
@@ -12,10 +12,10 @@
         img-src="../uploads/slide-1.jpg" height="100%"
       ></b-carousel-slide>
       <b-carousel-slide
-        img-src="https://picsum.photos/1024/350/?image=12"
+        img-src="../uploads/slide-2.jpg" height="100%"
       ></b-carousel-slide>
       <b-carousel-slide
-        img-src="https://picsum.photos/1024/350/?image=22"
+        img-src="../uploads/slide-3.jpg" height="100%"
       ></b-carousel-slide>
     </b-carousel>
   </div>
