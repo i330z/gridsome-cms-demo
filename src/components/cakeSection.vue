@@ -1,7 +1,7 @@
 <template>
     <div class="py-100">
         <!-- <span style="font-size:25px; text-align:center; margin: 0 auto;  display:block">Prepare with Love & Care</span> -->
-        <SectionHeader title= "Our Collection" activeColor="#F3D708"/>
+        <SectionHeader title= "Our Collection" subtitle="Prepare with Love & Care" activeColor="#F3D708"/>
         <b-row>
             <b-col md=12>
                 <div class="center">

@@ -3,6 +3,7 @@
         <div class="cake-divider">
         <img src="/uploads/divider.png"  alt="" />
       </div>
+        <span style="font-size:25px; text-align:center; margin: 0 auto;  display:block;font-family: 'Crimson Text', serif;">{{subtitle}}</span>
         <h2 class="center mb-5" :style="{color: activeColor}">{{title}}</h2>
     </div>
 </template>
@@ -14,6 +15,9 @@ export default {
       title:{
         type: String,
         required: true
+      },
+      subtitle:{
+        type: String,
       },
       activeColor:{
         type: String,
