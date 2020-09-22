@@ -10,7 +10,8 @@
       <div class="cake-divider">
         <img src="/uploads/divider.png"  alt="" />
       </div>
-      <h2 style="text-align:center">Best Selling Cake</h2>
+      <span style="font-size:25px; text-align:center; margin: 0 auto;  display:block;font-family: 'Crimson Text', serif;">Cakes & Bakes</span>
+      <h2 style="text-align:center; color:#37DED8">Best Selling Cake</h2>
       <b-row>
         <b-col
           class="my-4"

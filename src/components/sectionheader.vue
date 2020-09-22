@@ -3,7 +3,7 @@
         <div class="cake-divider">
         <img src="/uploads/divider.png"  alt="" />
       </div>
-        <h2 class="center mb-5">{{title}}</h2>
+        <h2 class="center mb-5" :style="{color: activeColor}">{{title}}</h2>
     </div>
 </template>
 
@@ -11,8 +11,15 @@
 <script>
 export default {
     props:{
-        title : String,
+      title:{
+        type: String,
         required: true
+      },
+      activeColor:{
+        type: String,
+        required: true,
+        default: 'black'
+      }
     }
 }
 </script>
