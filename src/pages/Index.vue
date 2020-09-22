@@ -127,7 +127,7 @@ query{
 </page-query>
 
 <script>
-import {Carousel,Slide} from 'vue-carousel'
+// import {Carousel,Slide} from 'vue-carousel'
 import CakeSection from "../components/cakeSection"
 import HeroCarousel from "../components/carousel";
 import Faq from "../components/faq";
@@ -144,11 +144,15 @@ export default {
         import ('vue-carousel')
         .then(m => m.Slide)
         .catch()
+    // Carousel,
+    // Slide
   },
   metaInfo: {
     title: "Hello, world!",
   },
-  
+  mounted:{
+    
+  }
 };
 </script>
 
