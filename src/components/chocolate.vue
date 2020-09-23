@@ -12,8 +12,8 @@
                         <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</span>
                     </div>
                     <div>
-                        <span class="strike-price mr-3"><strike>Rs 500</strike></span>
-                        <span>Rs 250</span>
+                        <span class="strike-price mr-3"><strike>&#8377;500</strike></span>
+                        <span>&#8377;250</span>
                     </div>
                     <!-- <button class="card-button">Buy Now</button> -->
                 </div>
@@ -29,8 +29,8 @@
                         <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</span>
                     </div>
                     <div>
-                        <span class="strike-price mr-3"><strike>Rs 500</strike></span>
-                        <span>Rs 250</span>
+                        <span class="strike-price mr-3"><strike>&#8377;500</strike></span>
+                        <span>&#8377;250</span>
                     </div>
                     <!-- <button class="card-button">Buy Now</button> -->
                 </div>
@@ -46,8 +46,8 @@
                         <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</span>
                     </div>
                     <div>
-                        <span class="strike-price mr-3"><strike>Rs 500</strike></span>
-                        <span>Rs 250</span>
+                        <span class="strike-price mr-3"><strike>&#8377;500</strike></span>
+                        <span>&#8377;250</span>
                     </div>
                     <!-- <button class="card-button">Buy Now</button> -->
                 </div>
@@ -63,8 +63,8 @@
                         <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</span>
                     </div>
                     <div>
-                        <span class="strike-price mr-3"><strike>Rs 500</strike></span>
-                        <span>Rs 250</span>
+                        <span class="strike-price mr-3"><strike>&#8377;500</strike></span>
+                        <span>&#8377;250</span>
                     </div>
                     <!-- <button class="card-button">Buy Now</button> -->
                 </div>
