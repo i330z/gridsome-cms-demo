@@ -1,7 +1,7 @@
 <template>
   <div class="navbar-cake">
     <b-navbar toggleable="lg" type="light">
-      <b-navbar-brand href="#">NavBar</b-navbar-brand>
+      <b-navbar-brand href="/">Bake Bunny</b-navbar-brand>
 
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
@@ -24,6 +24,21 @@
 </template>
 
 <style scoped>
+
+.navbar-brand{
+  font-size: 30px;
+  font-family: 'Lobster Two', cursive;
+}
+
+
+.nav-item{
+  padding: 0px 10px;
+}
+.nav-link{
+  font-size: 20px;
+  font-family: 'Lobster Two', cursive;
+  
+}
 .navbar-cake{
   position: relative;
 }

@@ -16,7 +16,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-color: #ffffff;
-    padding: 16%;
+    padding: 13.5%;
     color: #FF6BA4;
     text-align: center;
 }
