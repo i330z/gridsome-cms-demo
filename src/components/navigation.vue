@@ -37,7 +37,7 @@
 .nav-link{
   font-size: 20px;
   font-family: 'Lobster Two', cursive;
-  
+  letter-spacing: 2px;
 }
 .navbar-cake{
   position: relative;
