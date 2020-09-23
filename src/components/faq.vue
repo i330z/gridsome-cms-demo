@@ -5,7 +5,7 @@
             <b-row>
                 <b-col md="6">
                     <div class="p-4">
-                        <g-image src="https://cdn.shopify.com/s/files/1/0013/7487/9814/files/img-6_c4046eea-944c-4046-968b-bb3081825c3b.jpg?v=1534405206" class="faq-img" />
+                        <g-image  src="https://cdn.shopify.com/s/files/1/0013/7487/9814/files/img-6_c4046eea-944c-4046-968b-bb3081825c3b.jpg?v=1534405206" class="faq-img" />
                     </div>
                 </b-col>
                 <b-col md="6">
@@ -63,7 +63,7 @@ h3:focus{
 }
 
 .faq-img{
-    width: 591px;
+    width: 100%;
     border-radius: 12px;
 }
 

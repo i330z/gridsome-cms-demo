@@ -3,7 +3,7 @@
         <div class="cake-divider">
         <img src="/uploads/divider.png"  alt="" />
       </div>
-        <span style="font-size:25px; text-align:center; margin: 0 auto;  display:block;font-family: 'Crimson Text', serif;">{{subtitle}}</span>
+        <span class="subtitle">{{subtitle}}</span>
         <h2 class="center mb-5" :style="{color: activeColor}">{{title}}</h2>
     </div>
 </template>
@@ -29,6 +29,14 @@ export default {
 </script>
 
 <style scoped>
+
+.subtitle{
+  font-size:clamp(20px, 2.5vw, 25px);
+  text-align:center; 
+  margin: 0 auto;  
+  display:block;
+  font-family: 'Crimson Text', serif;
+}
 .cake-divider {
   -webkit-appearance: none;
   position: relative;

@@ -47,8 +47,8 @@ body {
 .layout {
   max-width: 98%;
   margin: 0 auto;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: clamp(10px, 2vw, 20px);
+  padding-right: clamp(10px, 2vw, 20px);
 }
 
 /* .header {

@@ -4,7 +4,7 @@
             Cakes for Celebration
         </span>
         <h2>Welcome to BakeBunny</h2>
-        <p style="width:60%; margin: 0 auto; color:black">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas numquam cupiditate veniam, enim repudiandae a aperiam ipsam! Non similique quisquam impedit libero ut quaerat dicta sint sed dolorum, reprehenderit expedita!</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas numquam cupiditate veniam, enim repudiandae a aperiam ipsam! Non similique quisquam impedit libero ut quaerat dicta sint sed dolorum, reprehenderit expedita!</p>
         <button class="intro-btn mt-4">Shop Now</button>
     </div>
 </template>
@@ -21,6 +21,12 @@
     text-align: center;
 }
 
+.intro p{
+    font-size: clamp(15px,2.5vw, 1.2rem);
+    width: min(1000px, calc(60% + 100px));
+    margin: 0 auto; 
+    color:black
+}
 
 .intro span{
     font-size:25px; text-align:center; margin: 0 auto;  display:block;font-family: 'Lobster Two', cursive; color: black;

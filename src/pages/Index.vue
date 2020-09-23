@@ -7,14 +7,10 @@
 
     <HeroCarousel />
     <section class="py-5">
-      <div class="cake-divider">
-        <img src="/uploads/divider.png"  alt="" />
-      </div>
-      <span style="font-size:25px; text-align:center; margin: 0 auto;  display:block;font-family: 'Crimson Text', serif;">Cakes & Bakes</span>
-      <h2 style="text-align:center; color:#37DED8">Best Selling Cake</h2>
+      <SectionHeader title= "Best Selling Cake" subtitle="Cakes & Bakes" activeColor="#37DED8" />
       <b-row>
         <b-col
-          class="my-4"
+          class="my-1"
           md="12"
         >
           <ClientOnly>
@@ -32,9 +28,54 @@
              
               <p>Chocolate</p>
               <!-- <g-link :to="post.node.path"> -->
-              <b-button class="card-button" 
+                <g-link to="/cake/chocolate-cake">
+                    <b-button class="card-button" 
                 >Buy Now</b-button
               >
+                </g-link>
+              
+               <!-- </g-link> -->
+            </div>
+          </div>
+        </slide>
+        <slide>
+          <div>
+            <div class=" cake-card p-2">
+              <!-- <div style="height:120px"></div> -->
+              <div class="cake-img">
+                <g-image src="https://cdn.shopify.com/s/files/1/0013/7487/9814/products/p6_cfa55e6f-3b8c-4c7a-8e6e-092809ed8d4b_grande.jpg?v=1535529185" alt="" class="img-fluid" />
+                <!-- <img src="/uploads/cake-1.png" alt="" class="img-fluid"> -->
+              </div>
+              
+                <h3>Chocolate Cake</h3>
+             
+              <p>Chocolate</p>
+             <g-link to="/cake/chocolate-cake">
+                    <b-button class="card-button" 
+                >Buy Now</b-button
+              >
+                </g-link>
+            </div>
+          </div>
+        </slide>
+        <slide>
+          <div>
+            <div class=" cake-card p-2">
+              <!-- <div style="height:120px"></div> -->
+              <div class="cake-img">
+                <g-image src="https://cdn.shopify.com/s/files/1/0013/7487/9814/products/p6_cfa55e6f-3b8c-4c7a-8e6e-092809ed8d4b_grande.jpg?v=1535529185" alt="" class="img-fluid" />
+                <!-- <img src="/uploads/cake-1.png" alt="" class="img-fluid"> -->
+              </div>
+              
+                <h3>Chocolate Cake</h3>
+             
+              <p>Chocolate</p>
+              <!-- <g-link :to="post.node.path"> -->
+              <g-link to="/cake/chocolate-cake">
+                    <b-button class="card-button" 
+                >Buy Now</b-button
+              >
+                </g-link>
                <!-- </g-link> -->
             </div>
           </div>
@@ -52,49 +93,11 @@
              
               <p>Chocolate</p>
               <!-- <g-link :to="post.node.path"> -->
-              <b-button class="card-button" 
+              <g-link to="/cake/chocolate-cake">
+                    <b-button class="card-button" 
                 >Buy Now</b-button
               >
-               <!-- </g-link> -->
-            </div>
-          </div>
-        </slide>
-        <slide>
-          <div>
-            <div class=" cake-card p-2">
-              <!-- <div style="height:120px"></div> -->
-              <div class="cake-img">
-                <g-image src="https://cdn.shopify.com/s/files/1/0013/7487/9814/products/p6_cfa55e6f-3b8c-4c7a-8e6e-092809ed8d4b_grande.jpg?v=1535529185" alt="" class="img-fluid" />
-                <!-- <img src="/uploads/cake-1.png" alt="" class="img-fluid"> -->
-              </div>
-              
-                <h3>Chocolate Cake</h3>
-             
-              <p>Chocolate</p>
-              <!-- <g-link :to="post.node.path"> -->
-              <b-button class="card-button" 
-                >Buy Now</b-button
-              >
-               <!-- </g-link> -->
-            </div>
-          </div>
-        </slide>
-        <slide>
-          <div>
-            <div class=" cake-card p-2">
-              <!-- <div style="height:120px"></div> -->
-              <div class="cake-img">
-                <g-image src="https://cdn.shopify.com/s/files/1/0013/7487/9814/products/p6_cfa55e6f-3b8c-4c7a-8e6e-092809ed8d4b_grande.jpg?v=1535529185" alt="" class="img-fluid" />
-                <!-- <img src="/uploads/cake-1.png" alt="" class="img-fluid"> -->
-              </div>
-              
-                <h3>Chocolate Cake</h3>
-             
-              <p>Chocolate</p>
-              <!-- <g-link :to="post.node.path"> -->
-              <b-button class="card-button" 
-                >Buy Now</b-button
-              >
+                </g-link>
                <!-- </g-link> -->
             </div>
           </div>
