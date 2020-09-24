@@ -6,7 +6,7 @@
     <h1>Hello, world!</h1> -->
 
     <HeroCarousel />
-    <section class="py-5">
+    <section class="py-5 best-seller">
       <SectionHeader title= "Best Selling Cake" subtitle="Cakes & Bakes" activeColor="#37DED8" />
       <b-row>
         <b-col
@@ -177,6 +177,11 @@ export default {
   /* box-shadow: 0 0 12px rgba(41, 41, 41, 0.15);  */
 }
 
+
+.best-seller{
+  background-image:  linear-gradient(90deg,rgba(255,255,255,0.8) 0,rgba(255,255,255,0.8)),url(http://bellaria.cwsthemes.com/wp-content/uploads/2017/12/547147222.jpg?id=223); 
+  background-position: center;
+}
 /* .cake-img {
   position: absolute;
   top: -20%;

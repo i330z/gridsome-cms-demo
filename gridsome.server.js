@@ -12,5 +12,15 @@ module.exports = function (api) {
 
   api.createPages(({ createPage }) => {
     // Use the Pages API here: https://gridsome.org/docs/pages-api/
+    const categoryList = ['chocolate','strawberry'];
+    categoryList.forEach(cat => {   
+      createPage({
+        path: `/category/${cat}`,
+        component: './src/templates/Category.vue',
+        context: {
+          category: cat
+        }
+      })
+    })
   })
 }
