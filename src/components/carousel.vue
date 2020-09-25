@@ -35,4 +35,10 @@
 .hero-section{
   height: 78vh;
 }
+
+@media (max-width: 600px) {
+ .hero-section{
+  height: 30vh;
+}
+}
 </style>
