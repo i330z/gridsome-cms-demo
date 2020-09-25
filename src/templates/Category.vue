@@ -9,18 +9,19 @@
         <b-row>
            <b-col md="3" class="cake-card-col"  v-for="cake in $page.cakes.edges" :key="cake.id">
                 <div class="cake-holder">
-                    <div class="image">
+                    <div class="image" style="min-height:220px">
                         <g-image :src="cake.node.thumbnail" alt="" />
                         <button class="card-button opa-button">Buy Now</button>
                     </div>
                     <div class="card-content">
                         <h3>{{cake.node.title}}</h3>
-                        <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</span>
+                        <!-- <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</span> -->
                     </div>
-                    <div>
+                    <div class="mb-3">
                         <span class="strike-price mr-3"><strike>&#8377;500</strike></span>
                         <span>&#8377;250</span>
                     </div>
+                     <button class="card-button">Buy Now</button>
                     <!-- <button class="card-button">Buy Now</button> -->
                 </div>
             </b-col>
@@ -46,7 +47,7 @@ query ($category: String){
       category
       title
       id
-      thumbnail
+      thumbnail 
     }
   }
 }
@@ -68,6 +69,8 @@ query ($category: String){
 
 .cake-holder{
   background: lightyellow;
+  padding: 20px 0px;
+  min-height: 400px;
 }
 .cake-card-col{
   margin-top: 50px;
