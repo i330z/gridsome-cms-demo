@@ -1,5 +1,5 @@
 <template>
-  <div >
+  <div class="hero-section">
     <b-carousel
       id="carousel-fade"
       style="text-shadow: 0px 0px 2px #000"
@@ -30,5 +30,9 @@
 .carousel .carousel-control {
   border-radius: 12px;
   overflow: hidden;
+}
+
+.hero-section{
+  height: 78vh;
 }
 </style>

@@ -14,8 +14,10 @@
         <!-- Right aligned nav items -->
         <b-navbar-nav class="ml-auto">  
           <b-navbar-nav>
-            <b-nav-item href="#">Cakes</b-nav-item>
-            <b-nav-item href="#">Gifts</b-nav-item>
+            <b-nav-item href="/category/chocolate">Chocolate</b-nav-item>
+            <b-nav-item href="/category/strawberry">Strawberry</b-nav-item>
+            <b-nav-item href="/category/vanilla">Vanilla</b-nav-item>
+            <b-nav-item href="/category/butterscotch">Butterscotch</b-nav-item>
           </b-navbar-nav>
         </b-navbar-nav>
       </b-collapse>

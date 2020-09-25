@@ -178,10 +178,10 @@ export default {
 }
 
 
-.best-seller{
+/* .best-seller{
   background-image:  linear-gradient(90deg,rgba(255,255,255,0.8) 0,rgba(255,255,255,0.8)),url(http://bellaria.cwsthemes.com/wp-content/uploads/2017/12/547147222.jpg?id=223); 
   background-position: center;
-}
+} */
 /* .cake-img {
   position: absolute;
   top: -20%;

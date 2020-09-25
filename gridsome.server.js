@@ -12,7 +12,7 @@ module.exports = function (api) {
 
   api.createPages(({ createPage }) => {
     // Use the Pages API here: https://gridsome.org/docs/pages-api/
-    const categoryList = ['chocolate','strawberry'];
+    const categoryList = ['chocolate','strawberry', 'vanilla', 'butterscotch'];
     categoryList.forEach(cat => {   
       createPage({
         path: `/category/${cat}`,
