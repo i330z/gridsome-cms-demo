@@ -50,7 +50,7 @@
             </table>
           </div>
           <div class="mt-4 text-center">
-            <button class="card-button">Order Now</button>
+            <button class="order-button">Order Now</button>
           </div>
         </b-col>
       </b-row>

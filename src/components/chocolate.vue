@@ -105,7 +105,7 @@
 .image{
     position: relative;
 }
-.image:hover .opa-button{
+.cake-holder:hover .opa-button{
     opacity: 1;
    
 }
