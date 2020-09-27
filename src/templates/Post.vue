@@ -11,7 +11,7 @@
             </b-row>
             <b-row>
                 <b-col md="6" class="py-100 mt-5" style="background: lightyellow; border-radius: 12px">
-                    <g-image :src="$page.post.thumbnail" width="100%" alt="" />
+                    <img :src="$page.post.thumbnail" class="detail-page-img" alt="" />
                 </b-col>
                 <b-col md="6" class="py-100 mt-5 px-5"> 
                     <h1>{{ $page.post.title }}</h1>
@@ -31,6 +31,21 @@
     </Layout>
 </template>
 
+
+
+<page-query>
+
+query Post($path: String !){
+    
+    post: post(path: $path){
+        title
+        content
+        thumbnail (width:400)
+    }
+}
+
+</page-query>
+
 <style scoped>
 .cake-detail span{
     /* margin-bottom: 1px; */
@@ -40,17 +55,10 @@
 .cake-detail span>strong{
     font-size: 20px;
 }
+
+.detail-page-img{
+    width: 100%;
+    
+}
 </style>
 
-<page-query>
-
-query Post($path: String !){
-    
-    post: post(path: $path){
-        title
-        content
-        thumbnail
-    }
-}
-
-</page-query>

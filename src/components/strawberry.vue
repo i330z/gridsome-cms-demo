@@ -70,7 +70,15 @@
                 </div>
             </b-col>
         </b-row>
-        
+        <b-row>
+            <b-col>
+                <div class="text-center mt-5 mb-0 pb-0">
+                    <g-link to="/category/strawberry">
+                        <button class="card-button">View More</button>
+                    </g-link>
+                </div>
+            </b-col>
+        </b-row>
     </div>
 </template>
 
