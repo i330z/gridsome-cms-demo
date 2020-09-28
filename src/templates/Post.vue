@@ -6,8 +6,9 @@
           <div
             style="text-align:center;padding: 90px 0px; background: lightgrey"
           >
-            <h2>Chocolate Cake</h2>
+            <h2 class="item-category">{{ $page.post.category }} Cake</h2>
           </div>
+          
         </b-col>
       </b-row>
       <b-row>
@@ -37,14 +38,14 @@
             <table>
               <tr>
                 <th>Kg</th>
-                <th>price</th>
+                <th>Price</th>
               </tr>
               <tr>
                 <td>0.5kg</td>
                 <td>&#8377; 300</td>
               </tr>
               <tr>
-                <td>0.5kg</td>
+                <td>1kg</td>
                 <td>&#8377; 500</td>
               </tr>
             </table>
@@ -69,10 +70,14 @@ query Post($path: String !){
         title
         content
         thumbnail (width:400)
+        category
     }
 }
 
 </page-query>
+
+
+
 
 <style scoped>
 .cake-detail span {
@@ -87,12 +92,25 @@ query Post($path: String !){
 .detail-page-img {
   width: 100%;
 }
+
+.item-category{
+  text-transform: capitalize;
+}
+
+
 table, th, td {
   border: 1px solid black;
   border-collapse: collapse;
+  margin-left: 80px;
 }
 th, td {
   padding: 8px;
   width: 20%;
+}
+
+@media(max-width: 380px){
+  table, th, td {
+  margin-left: 0px;
+}
 }
 </style>
