@@ -14,7 +14,7 @@
           md="12"
         >
           <ClientOnly>
-      <carousel :perPageCustom="[[400, 1],[768, 3], [1024, 4]]">
+      <carousel :perPageCustom="[[400, 2],[768, 3], [1024, 4]]">
         <slide>
           <div>
             <div class=" cake-card p-2">
@@ -173,7 +173,7 @@ export default {
   text-align: center;
   background: #f8f8f8;
   border-radius: 12px;
-  margin: 20px;
+  margin: 6px;
   /* box-shadow: 0 0 12px rgba(41, 41, 41, 0.15);  */
 }
 
@@ -241,11 +241,11 @@ export default {
   
 }
 
-.cake-divider img {
+/* .cake-divider img {
   display: block;
   margin: auto;
   padding: 0 20px;
-  background: white;
-  /* width: 240px; */
-}
+  background:white;
+  width: 240px;
+} */
 </style>

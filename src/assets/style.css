@@ -3,7 +3,7 @@ h1{
     font-family: 'Lobster Two', cursive;
 }
 h2{
-    font-size: clamp(41px, 5vw, 51px);
+    font-size: clamp(45px, 5vw, 51px);
     font-family: 'Lobster Two', cursive;
 }
 h3{
@@ -11,13 +11,18 @@ h3{
 }
 
 p{
-    font-size: clamp(12px, 5vw, 1rem);
+    font-size: clamp(18px, 2vw, 1rem);
 }
 
 a{
     text-decoration: none !important;
     color: black;
     cursor: pointer;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
 }
 
 .py-100{
@@ -32,6 +37,7 @@ a{
     border-radius: 12px;
     overflow: hidden;
     text-align: center;
+    margin-bottom: 15px;
 }
 
 .card-button{
@@ -88,4 +94,14 @@ a{
     color: white;
     border: 2px solid #ff6ea7;
     padding: 10px 80px; 
+}
+
+@media(max-width: 450px){
+    .tab-name{
+        font-size: 14px;
+    }
+    .tab-cake li{
+        display: inline-block;
+        margin: 0px 10px;
+    }
 }
